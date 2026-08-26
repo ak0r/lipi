@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && npx pagefind --site dist && cp -r dist/pagefind public/",
+    "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
     "lint": "biome lint .",
     "format": "pnpm run format:code && pnpm run format:imports",
