@@ -25,10 +25,6 @@ export default defineConfig({
 
   experimental: {
     contentIntellisense: true,
-    rustCompiler: true,
-    queuedRendering: {
-      enabled: true,
-    },
     svgOptimizer: svgoOptimizer(),
   },
 
@@ -90,7 +86,7 @@ export default defineConfig({
       // return visitors who navigate between pages.
       cssCodeSplit: true,
       // cssMinify: 'lightningcss',
-      minify: 'esbuild',
+      minify: 'oxc',
     },
     css: {
       transformer: 'lightningcss',
