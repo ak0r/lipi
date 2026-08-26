@@ -32,7 +32,7 @@ The visual design takes its cues from the [Kami](https://kami.tw93.fun) design l
 - Shiki syntax highlighting with light/dark token mapping
 - GitHub-Flavored Markdown and MDX support
 - Paper texture and print-aware styles (Cmd+P layout preserved)
-- Single configuration file: `configs/lipi.config.ts`
+- Single configuration file: `configs/user.config.ts`
 - Minimal client-side JavaScript
 
 ---
@@ -60,10 +60,10 @@ The dev server starts at `http://localhost:4321`.
 
 ## Configuration
 
-All site-level settings live in `configs/lipi.config.ts`. Open it, change the values, and the site reflects the changes.
+All site-level settings live in `configs/user.config.ts`. Open it, change the values, and the site reflects the changes.
 
 ```ts
-// configs/lipi.config.ts
+// configs/user.config.ts
 const userConfig: UserConfig = {
   title: "Your Publication",
   description: "What your site is about.",
@@ -91,7 +91,7 @@ The full configuration reference is in the [Configuring Lipi](https://astro-lipi
 ```txt
 lipi/
 ├── configs/
-│   └── lipi.config.ts        # All site settings live here
+│   └── user.config.ts        # All site settings live here
 ├── public/
 │   └── favicon.svg
 ├── src/
