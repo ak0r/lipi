@@ -2,6 +2,7 @@
 @import "glightbox/dist/css/glightbox.min.css";
 @import "./theme.css";
 @import "./typography.css";
+@import "./pagefind.css";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
